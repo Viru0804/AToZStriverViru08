@@ -16,7 +16,6 @@ class ArrayFrequencyUsingHashmap{
             System.out.println("Enter Numbers in array");
             arr[i] = sc.nextInt();
         }
-        
         //precomputation
         
         HashMap<Integer,Integer>  mp = new HashMap<>();
