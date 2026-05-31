@@ -17,6 +17,7 @@ public class ArrayLeftRotateByDIndexes {
         }
         
         leftrotatearraybyd(arr,n,d);
+        sc.close();
     }
     public static void leftrotatearraybyd(int[] arr, int n, int d){
         int a=0;
@@ -38,4 +39,5 @@ public class ArrayLeftRotateByDIndexes {
             end--;
         }
     }
+
 }
